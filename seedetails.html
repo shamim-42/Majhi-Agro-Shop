@@ -1,0 +1,285 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Majhi Agro Shop</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mdb.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/Footer-with-social-icons.css">
+    <link rel="stylesheet" href="./fontawesome-5.10/css/all.css">
+
+    <script src="./fontawesome-5.10/js/all.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #666; box-shadow: 0 0 0 !important">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Majhi Logo</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse p-1" id="basicExampleNav">
+            <ul class="navbar-nav ml-auto font-weight-bold">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="#">Signin</a>
+                </li>
+                <div class="border-left border-warning d-flex flex-column justify-content-center m-0 px-3"
+                    style="background-color: rgba(0,0,0,.5); border-radius: 0 7px 7px 0;">
+                    <li class="nav-item">
+                        <a class="nav-link p-0 text-warning" href="#">21 items</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-0 text-warning" href="#">1543 Taka</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        <!-- Collapsible content -->
+    </nav>
+    <!--/.Navbar-->
+    <div id="menubar" class="containter-fluid bg-warning">
+        <div class="row">
+            <div class="col py-2 px-4">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="mx-2" href="#">New Arrival</a>
+                    <a class="mx-2" href="#">Electronics</a>
+                    <a class="mx-2" href="#">Cloth</a>
+                    <a class="mx-2" href="#">Seed</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="containter">
+        <div class="row justify-content-center">
+            <div class="col-sm-10">
+                <div class="row bg-white mt-4">
+                    <div class="col-md-3 p-3">
+                        <h5 class="font-weight-bold">Fashion</h5>
+                        <ul class="list-group">
+                            <li class="list-group-item">Sub Category 1</li>
+                            <li class="list-group-item">Sub Category 2</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+
+                    </div>
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-12 py-3 d-flex justify-content-between">
+                                <h5 class="font-weight-bold">Fashion</h5>
+                            </div>
+                            <div class="col-12 border-bottom p-3 my-3">
+                                SubCategory 1
+                            </div>
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid""
+                                                src=" ./img/products/dumur.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px"
+                                        src="./img/products/172594468-56a793465f9b58b7d0ebd64b.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">Very Simple Seed
+                                    </p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px"
+                                        src="./img/products/g-neuron-56a792cd5f9b58b7d0ebd043.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px" src="./img/products/kumra.jpeg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 border-bottom p-3 my-3">
+                                SubCategory 2
+                            </div>
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid""
+                                                    src=" ./img/products/dumur.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px"
+                                        src="./img/products/172594468-56a793465f9b58b7d0ebd64b.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">Very Simple Seed
+                                    </p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px"
+                                        src="./img/products/g-neuron-56a792cd5f9b58b7d0ebd043.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px" src="./img/products/kumra.jpeg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px" src="./img/products/sd.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4 col-md-4">
+                                <div
+                                    class="product-container d-flex flex-column justify-content-center align-items-center p-3">
+                                    <img onclick="openModal(this)" class="text-center img-fluid"
+                                        style="max-height: 300px" src="./img/products/seed in hand.jpg" alt="">
+                                    <p onclick="openModal(this)" class="text-center mt-2 product-name">This is a nice
+                                        product
+                                        name that can be two lines in length</p>
+                                    <h5 class="product-price">105 Taka</h5>
+                                    <button class="add-to-cart-btn btn mt-auto">Add To Cart</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="myFooter">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 myCols">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 myCols">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="social-networks">
+            <p>Connect Us on facebook</p>
+            <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2019 All rights reserved </p>
+        </div>
+    </footer>
+    <script>
+        function openModal(target) {
+            $('#centralModalLg').modal('show');
+        }
+    </script>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/mdb.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+</body>
+
+</html>
